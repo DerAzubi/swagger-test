@@ -5,7 +5,7 @@
     <!-- Vaadin project from https://start.vaadin.com/project/cb366327-ea24-46f3-81d9-a1de377058c4 -->
     <groupId>de.jfancy.swaggertest</groupId>
     <artifactId>swaggertest</artifactId>
-    <name>Project base for Spring Boot and Vaadin Flow</name>
+    <name>Swagger Test</name>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -123,6 +123,25 @@
             <version>4.4.0</version>
             <scope>test</scope>
         </dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-config</artifactId>
+		</dependency>
+		<!-- Rest Doku-->
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.6.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-security</artifactId>
+			<version>1.6.5</version>
+		</dependency>
     </dependencies>
 
     <build>
